@@ -1,0 +1,93 @@
+:root {
+  --text: #1d1d1f;
+  --muted: #5b5f66;
+  --line: #e4e6ea;
+  --accent: #0b5cad;
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 17px; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Capçalera */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  padding: 1rem 0;
+}
+.site-header .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.site-name {
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+.site-header nav a {
+  margin-left: 1.25rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+.site-header nav a:hover { text-decoration: underline; }
+
+main { padding: 2rem 0 3rem; min-height: 70vh; }
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+h2 {
+  font-size: 1.35rem;
+  margin: 0 0 0.5rem;
+}
+p, ul { margin: 0 0 1rem; }
+a { color: var(--accent); }
+
+/* Cada apartat de la PAC */
+.figura {
+  border-top: 1px solid var(--line);
+  padding: 2rem 0;
+}
+.figura img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Peu */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.site-footer p { margin: 0; }
+
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+  h1 { font-size: 1.6rem; }
+  .site-header nav a { margin-left: 0.9rem; }
+}

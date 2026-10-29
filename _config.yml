@@ -1,0 +1,6 @@
+title: Vicenç Bosch Matas
+description: Pàgines personals i treballs de visualització de dades
+lang: ca
+markdown: kramdown
+exclude:
+  - README.md
