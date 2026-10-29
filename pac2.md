@@ -15,7 +15,7 @@ Persones investigadores en R+D a Espanya el 2024, per sector d'execució. La pir
 
 Font: Eurostat, TSC00003. Codi: [`01_piramide_rd_sector.R`]({{ '/assets/codi/01_piramide_rd_sector.R' | relative_url }}).
 
-<img width=100% src="{{ '/assets/img/piramide-rd-sector.png' | relative_url }}" alt="Piràmide de la distribució de persones en R+D per sector a Espanya el 2024. Estudis avançats i educació 51,3 %, empreses privades 34,2 %, secció governamental 13,9 % i empreses sense ànims de lucre 0,6 %.">
+<img style="max-width: 100%; width:auto; height:auto;" src="{{ '/assets/img/piramide-rd-sector.png' | relative_url }}" alt="Piràmide de la distribució de persones en R+D per sector a Espanya el 2024. Estudis avançats i educació 51,3 %, empreses privades 34,2 %, secció governamental 13,9 % i empreses sense ànims de lucre 0,6 %.">
 
 
 ## 2. Dot matrix: superfície agrícola utilitzada
