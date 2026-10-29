@@ -24,7 +24,7 @@ Superfície agrícola utilitzada a Espanya el 2024. Cada punt representa el 0,5 
 
 Font: Eurostat, TAG00025. Codi: [`02_dot_matrix_sau.R`]({{ '/assets/codi/02_dot_matrix_sau.R' | relative_url }}).
 
-<img src="{{ '/assets/img/dot-matrix-sau.png' | relative_url }}" alt="Graella de 200 punts amb la superfície agrícola utilitzada d'Espanya el 2024: 46 % terres de conreu, 33 % prats i pastures permanents, 20,6 % cultius permanents i 0,5 % horts familiars.">
+<img width=100 src="{{ '/assets/img/dot-matrix-sau.png' | relative_url }}" alt="Graella de 200 punts amb la superfície agrícola utilitzada d'Espanya el 2024: 46 % terres de conreu, 33 % prats i pastures permanents, 20,6 % cultius permanents i 0,5 % horts familiars.">
 
 
 ## 3. Espiral: arribades a establiments de vacances
